@@ -18,6 +18,7 @@ public class TC001_LogInStepDefiniton {
 	@And("user enters password")
 	public void user_enters_password() {
 	   System.out.println("Enter Password");
+	   System.out.println("Ensure you enter the correct password");
 	}
 	@And("clicks on submit button")
 	public void clicks_on_submit_button() {
